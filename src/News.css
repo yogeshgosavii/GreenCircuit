@@ -1,0 +1,24 @@
+.absolute {
+    position: absolute;
+  }
+  
+  .transition-transform {
+    transition-property: transform;
+  }
+  
+  .duration-1000 {
+    transition-duration: 1000ms;
+  }
+  
+  .transform {
+    transform: translateX(0);
+  }
+  
+  .-translate-x-full {
+    transform: translateX(-100%);
+  }
+  
+  .translate-x-full {
+    transform: translateX(100%);
+  }
+  
